@@ -9,7 +9,11 @@
     <!--</gradient>-->
 
 
-    <solid android:color="@color/white"/>
+    <gradient
+        android:endColor="@color/color_blue_gradient_login_2"
+        android:startColor="@color/color_blue_gradient_login_1">
+
+    </gradient>
     <!-- this one is ths color of the Rounded Button -->
     <corners android:radius="@dimen/margin10" />
 </shape>

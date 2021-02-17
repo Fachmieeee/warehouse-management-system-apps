@@ -1,8 +1,10 @@
 <resources>
 
-    <string name="app_name">Goodang</string>
+    <string name="app_name">CekAja</string>
 
-    <string name="label_copyright_splash">Copyright Goodang v0.0.1</string>
+    <string name="label_copyright_splash">Copyright by PAR DIGITAL</string>
+
+    <string name="label_parversi">CekAJa v.1.0.0 </string>
 
     <string name="label_login">Login</string>
 
@@ -14,7 +16,7 @@
 
     <string name="label_password_hint">Password</string>
 
-    <string name="label_tv_lupa_kata_sandi">Are your forgot the password?</string>
+    <string name="label_tv_lupa_kata_sandi">Lupa Password?</string>
 
     <string name="label_assets_home">Assets</string>
 
@@ -61,7 +63,7 @@
 
     <string name="label_tv_logout">Logout</string>
 
-    <string name="label_version_lippo_gudang_profile">Goodang v0.0.1</string>
+    <string name="label_version_lippo_gudang_profile">CekAja v1.0.0</string>
 
     <string name="label_header_list_gudang">Please select warehouse first!</string>
 
