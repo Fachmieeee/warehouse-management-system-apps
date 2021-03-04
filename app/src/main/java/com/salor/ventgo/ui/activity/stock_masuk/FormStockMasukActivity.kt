@@ -43,6 +43,9 @@ class FormStockMasukActivity : BaseActivity() {
     var listWarehouse: ArrayList<WarehouseList> = ArrayList()
     var selected_tipe_quantity: String = ""
     var str_pno: String = ""
+    var str_platno: String = ""
+    var str_mesinno: String = ""
+    var str_rangkano: String = ""
     var listSpinnerTipeQuantity: ArrayList<String> = ArrayList()
 
     override fun attachBaseContext(newBase: Context) {
@@ -238,7 +241,7 @@ class FormStockMasukActivity : BaseActivity() {
     private fun addStockMasuk() {
         pLoading.showLoading(resources.getString(R.string.label_loading_title_dialog), false)
         val service = ApiClient.getClient()
-        val call = service.stockBarangMasukAdd(scanStockMasuk.sku, scanStockMasuk.id.toInt(), selected_id_warehouse, selected_tipe_quantity, str_total_quantity, str_description, scanStockMasuk.idCmsUsers.toInt(), str_pno)
+        val call = service.stockBarangMasukAdd(scanStockMasuk.sku, scanStockMasuk.id.toInt(), selected_id_warehouse, selected_tipe_quantity, str_total_quantity, str_description, scanStockMasuk.idCmsUsers.toInt(), str_pno, str_platno, str_mesinno, str_rangkano)
 
         See.logE("idUser", "" + scanStockMasuk.idCmsUsers)
         See.logE("sku", "" + scanStockMasuk.sku)

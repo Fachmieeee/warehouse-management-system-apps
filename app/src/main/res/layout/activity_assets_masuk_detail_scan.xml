@@ -281,6 +281,84 @@
                     android:textSize="@dimen/text_default"
                     tools:ignore="MissingPrefix"/>
 
+                <TextView
+                    fontPath="fonts/open_sans_semibold.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin20"
+                    android:layout_marginRight="@dimen/margin20"
+                    android:layout_marginTop="@dimen/margin20"
+                    android:text="@string/label_platno"
+                    android:textColor="@color/color_tv_phone_number_profile"
+                    android:textSize="@dimen/text_smallest_medium"
+                    tools:ignore="MissingPrefix"/>
+
+                <TextView
+                    android:id="@+id/tvPlatno"
+                    fontPath="fonts/open_sans_semibold.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin20"
+                    android:layout_marginRight="@dimen/margin20"
+                    android:layout_marginTop="@dimen/margin5"
+                    android:textColor="@color/color_gray_tv_name_profil"
+                    android:textSize="@dimen/text_default"
+                    tools:ignore="MissingPrefix"/>
+
+                <TextView
+                    fontPath="fonts/open_sans_semibold.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin20"
+                    android:layout_marginRight="@dimen/margin20"
+                    android:layout_marginTop="@dimen/margin20"
+                    android:text="@string/label_mesinno"
+                    android:textColor="@color/color_tv_phone_number_profile"
+                    android:textSize="@dimen/text_smallest_medium"
+                    tools:ignore="MissingPrefix"/>
+
+                <TextView
+                    android:id="@+id/tvMesinno"
+                    fontPath="fonts/open_sans_semibold.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin20"
+                    android:layout_marginRight="@dimen/margin20"
+                    android:layout_marginTop="@dimen/margin5"
+                    android:textColor="@color/color_gray_tv_name_profil"
+                    android:textSize="@dimen/text_default"
+                    tools:ignore="MissingPrefix"/>
+
+                <TextView
+                    fontPath="fonts/open_sans_semibold.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin20"
+                    android:layout_marginRight="@dimen/margin20"
+                    android:layout_marginTop="@dimen/margin20"
+                    android:text="@string/label_rangkano"
+                    android:textColor="@color/color_tv_phone_number_profile"
+                    android:textSize="@dimen/text_smallest_medium"
+                    tools:ignore="MissingPrefix"/>
+
+                <TextView
+                    android:id="@+id/tvRangkano"
+                    fontPath="fonts/open_sans_semibold.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin20"
+                    android:layout_marginRight="@dimen/margin20"
+                    android:layout_marginTop="@dimen/margin5"
+                    android:textColor="@color/color_gray_tv_name_profil"
+                    android:textSize="@dimen/text_default"
+                    tools:ignore="MissingPrefix"/>
+
 
                 <TextView
                     fontPath="fonts/open_sans_semibold.ttf"

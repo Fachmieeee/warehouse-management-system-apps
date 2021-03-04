@@ -32,6 +32,15 @@ public class AssetListBarangMasuk {
     @SerializedName("no_po")
     @Expose
     private String noPo;
+    @SerializedName("no_plat")
+    @Expose
+    private String noPlat;
+    @SerializedName("no_mesin")
+    @Expose
+    private String noMesin;
+    @SerializedName("no_rangka")
+    @Expose
+    private String noRangka;
     @SerializedName("item_sku")
     @Expose
     private String itemSku;
@@ -115,6 +124,30 @@ public class AssetListBarangMasuk {
 
     public void setNoPo(String noPo) {
         this.noPo = noPo;
+    }
+
+    public String getNoPlat() {
+        return noPlat;
+    }
+
+    public void setNoPlat(String noPlat) {
+        this.noPlat = noPlat;
+    }
+
+    public String getNoMesin() {
+        return noMesin;
+    }
+
+    public void setNoMesin(String noMesin) {
+        this.noMesin = noMesin;
+    }
+
+    public String getNoRangka() {
+        return noRangka;
+    }
+
+    public void setNoRangka(String noRangka) {
+        this.noRangka = noRangka;
     }
 
     public String getItemSku() {

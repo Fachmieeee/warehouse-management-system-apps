@@ -48,6 +48,27 @@ class AssetsMasukDetailScanActivity : BaseActivity() {
         }
 
         try {
+            tvPlatno.text = dataBarang.noPlat
+        }catch (e : Exception){
+            e.printStackTrace()
+            tvPlatno.text = " - "
+        }
+
+        try {
+            tvMesinno.text = dataBarang.noMesin
+        }catch (e : Exception){
+            e.printStackTrace()
+            tvMesinno.text = " - "
+        }
+
+        try {
+            tvRangkano.text = dataBarang.noRangka
+        }catch (e : Exception){
+            e.printStackTrace()
+            tvRangkano.text = " - "
+        }
+
+        try {
             tvDescription.text = dataBarang.description
         }catch (e : Exception){
             e.printStackTrace()

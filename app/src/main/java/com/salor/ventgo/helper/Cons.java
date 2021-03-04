@@ -10,7 +10,7 @@ public interface Cons {
 
     String DATABASE_NAME = "LippoDB";
 
-    String BASE_URL = "http://cekaja.invata-education.com/api/";
+    String BASE_URL = "http://cekaja.par.co.id/api/";
 
     String DateFormat = "yyyy-MM-dd HH:mm:ss";
 

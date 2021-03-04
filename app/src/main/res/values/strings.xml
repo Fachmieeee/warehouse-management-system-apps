@@ -47,27 +47,27 @@
 
     <string name="label_profil_title_page">Profile</string>
 
-    <string name="label_title_page_list_gudang">Warehouse</string>
+    <string name="label_title_page_list_gudang">Lokasi</string>
 
     <string name="label_title_page_list_barang">Items</string>
 
     <string name="label_title_page_list_barang_stock">List Items</string>
 
-    <string name="label_phone_number_profile">Phone Number</string>
+    <string name="label_phone_number_profile">Nomor Telfon</string>
 
-    <string name="label_address_profile">Address</string>
+    <string name="label_address_profile">Alamat</string>
 
     <string name="label_pengaturan_profile_detail">Profile Setting</string>
 
-    <string name="label_ganti_password_profile">Change Password</string>
+    <string name="label_ganti_password_profile">Ganti Password</string>
 
-    <string name="label_tv_logout">Logout</string>
+    <string name="label_tv_logout">Keluar</string>
 
     <string name="label_version_lippo_gudang_profile">CekAja v1.0.0</string>
 
-    <string name="label_header_list_gudang">Please select warehouse first!</string>
+    <string name="label_header_list_gudang">Silahkan Pilih Lokasi</string>
 
-    <string name="label_hint_search_list_barang">Input Product Name</string>
+    <string name="label_hint_search_list_barang">Masukan Nama Product</string>
 
     <string name="label_menu_title_menu_item_barang_assets">Item Assets</string>
 
@@ -77,6 +77,12 @@
 
     <string name="label_pno">No Po</string>
 
+    <string name="label_platno">No Plat</string>
+
+    <string name="label_mesinno">No Mesin</string>
+
+    <string name="label_rangkano">No Rangka</string>
+
     <string name="label_last_update">Last Update</string>
 
     <string name="label_waktu_scan">Waktu Scan</string>
@@ -85,7 +91,7 @@
 
     <string name="label_detail_barang_stock">Detail Item Stock</string>
 
-    <string name="label_detail_per_gudang">Detail per-warehouse</string>
+    <string name="label_detail_per_gudang">Detail per-lokasi</string>
 
     <string name="label_detail_per_scan">Detail per-scan</string>
 
@@ -106,7 +112,7 @@
 
     <string name="label_detail_scanned_product">Detail Scanned Product</string>
 
-    <string name="label_gudang">Gudang</string>
+    <string name="label_gudang">Lokasi</string>
 
     <string name="label_code">Code</string>
 
@@ -298,9 +304,9 @@
 
     <string name="label_please_wait_spinner_gudang">please wait getting data</string>
 
-    <string name="labe_hint_pilih_gudang">Select Warehouse</string>
+    <string name="labe_hint_pilih_gudang">Pilih Lokasi</string>
 
-    <string name="label_pilih_gudang_terlebih_dahulu">Select warehouse first</string>
+    <string name="label_pilih_gudang_terlebih_dahulu">SIlahkan Pilih Lokasi</string>
 
     <string name="label_semua_status">All Status</string>
     <string name="label_draft_status">Draft Status</string>

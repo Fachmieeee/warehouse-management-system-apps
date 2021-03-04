@@ -40,6 +40,9 @@ class FormAssetsMasukActivity : BaseActivity() {
     var id_item: Int = 0
     var str_code: String = ""
     var str_pno: String = ""
+    var str_platno: String = ""
+    var str_mesinno: String = ""
+    var str_rangkano: String = ""
     lateinit var dataScan: ScanAssetMasuk
     lateinit var spinnerAdapterGudang: AdapterSpinnerGudang
     var selected_id_warehouse: Int = -1
@@ -65,6 +68,9 @@ class FormAssetsMasukActivity : BaseActivity() {
 
             str_description = etDescription.text.toString()
             str_pno = etPno.text.toString()
+            str_platno = etPlatno.text.toString()
+            str_mesinno = etMesinno.text.toString()
+            str_rangkano = etRangkano.text.toString()
 
 //            if (str_description == ""){
 //
@@ -195,7 +201,7 @@ class FormAssetsMasukActivity : BaseActivity() {
 
         val idUser = DBS.with(this).idUser.toInt()
 
-        val call = service.assetBarangMasukAdd(idUser, str_code, id_item, selected_id_warehouse, str_description,str_pno)
+        val call = service.assetBarangMasukAdd(idUser, str_code, id_item, selected_id_warehouse, str_description, str_pno, str_platno, str_mesinno, str_rangkano)
 
         See.logE("idUser", "" + idUser)
         See.logE("str_code", "" + str_code)

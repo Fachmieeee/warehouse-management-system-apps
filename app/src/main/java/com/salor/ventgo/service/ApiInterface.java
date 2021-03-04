@@ -78,7 +78,11 @@ public interface ApiInterface {
             @Query("id_item") int id_item,
             @Query("id_warehouse") int id_warehouse,
             @Query("description") String description,
-            @Query("no_po") String no_po
+            @Query("no_po") String no_po,
+            @Query("no_plat") String no_plat,
+            @Query("no_mesin") String no_mesin,
+            @Query("no_rangka") String no_rangka
+
     );
 
 
@@ -245,7 +249,10 @@ public interface ApiInterface {
             @Query("qty") String qty,
             @Query("description") String description,
             @Query("id_cms_users") int id_cms_users,
-            @Query("no_po") String no_po
+            @Query("no_po") String no_po,
+            @Query("no_plat") String no_plat,
+            @Query("no_mesin") String no_mesin,
+            @Query("no_rangka") String no_rangka
     );
 
 
