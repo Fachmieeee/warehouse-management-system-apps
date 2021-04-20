@@ -1,10 +1,10 @@
 <resources>
 
-    <string name="app_name">CekAja</string>
+    <string name="app_name">CAR</string>
 
     <string name="label_copyright_splash">Copyright by PAR DIGITAL</string>
 
-    <string name="label_parversi">CekAJa v.1.0.0 </string>
+    <string name="label_parversi">CAR v.1.0.0 </string>
 
     <string name="label_login">Login</string>
 
@@ -63,7 +63,7 @@
 
     <string name="label_tv_logout">Keluar</string>
 
-    <string name="label_version_lippo_gudang_profile">CekAja v1.0.0</string>
+    <string name="label_version_lippo_gudang_profile">CAR v1.0.0</string>
 
     <string name="label_header_list_gudang">Silahkan Pilih Lokasi</string>
 

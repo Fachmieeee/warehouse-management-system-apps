@@ -62,6 +62,7 @@ public class AssetListBarangMasuk {
         this.id = id;
     }
 
+
     public String getCode() {
         return code;
     }
@@ -69,6 +70,7 @@ public class AssetListBarangMasuk {
     public void setCode(String code) {
         this.code = code;
     }
+
 
     public String getIdItem() {
         return idItem;
@@ -78,6 +80,7 @@ public class AssetListBarangMasuk {
         this.idItem = idItem;
     }
 
+
     public String getIdWarehouse() {
         return idWarehouse;
     }
@@ -85,6 +88,7 @@ public class AssetListBarangMasuk {
     public void setIdWarehouse(String idWarehouse) {
         this.idWarehouse = idWarehouse;
     }
+
 
     public String getDescription() {
         return description;
@@ -94,6 +98,7 @@ public class AssetListBarangMasuk {
         this.description = description;
     }
 
+
     public String getIdCmsUsers() {
         return idCmsUsers;
     }
@@ -101,6 +106,7 @@ public class AssetListBarangMasuk {
     public void setIdCmsUsers(String idCmsUsers) {
         this.idCmsUsers = idCmsUsers;
     }
+
 
     public String getIdItemOutAsset() {
         return idItemOutAsset;
@@ -110,6 +116,7 @@ public class AssetListBarangMasuk {
         this.idItemOutAsset = idItemOutAsset;
     }
 
+
     public String getCreatedAt() {
         return createdAt;
     }
@@ -117,6 +124,7 @@ public class AssetListBarangMasuk {
     public void setCreatedAt(String createdAt) {
         this.createdAt = createdAt;
     }
+
 
     public String getNoPo() {
         return noPo;
@@ -126,6 +134,7 @@ public class AssetListBarangMasuk {
         this.noPo = noPo;
     }
 
+
     public String getNoPlat() {
         return noPlat;
     }
@@ -133,6 +142,7 @@ public class AssetListBarangMasuk {
     public void setNoPlat(String noPlat) {
         this.noPlat = noPlat;
     }
+
 
     public String getNoMesin() {
         return noMesin;
@@ -142,6 +152,7 @@ public class AssetListBarangMasuk {
         this.noMesin = noMesin;
     }
 
+
     public String getNoRangka() {
         return noRangka;
     }
@@ -149,6 +160,7 @@ public class AssetListBarangMasuk {
     public void setNoRangka(String noRangka) {
         this.noRangka = noRangka;
     }
+
 
     public String getItemSku() {
         return itemSku;
@@ -158,6 +170,7 @@ public class AssetListBarangMasuk {
         this.itemSku = itemSku;
     }
 
+
     public String getItemName() {
         return itemName;
     }
@@ -165,6 +178,7 @@ public class AssetListBarangMasuk {
     public void setItemName(String itemName) {
         this.itemName = itemName;
     }
+
 
     public String getCmsUsersName() {
         return cmsUsersName;
@@ -174,6 +188,7 @@ public class AssetListBarangMasuk {
         this.cmsUsersName = cmsUsersName;
     }
 
+
     public String getWarehouseName() {
         return warehouseName;
     }
@@ -181,4 +196,5 @@ public class AssetListBarangMasuk {
     public void setWarehouseName(String warehouseName) {
         this.warehouseName = warehouseName;
     }
+
 }

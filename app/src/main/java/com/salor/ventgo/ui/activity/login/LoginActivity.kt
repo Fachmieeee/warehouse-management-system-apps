@@ -230,7 +230,7 @@ class LoginActivity : BaseActivity() {
 
                 try {
                     TransitionManager.beginDelayedTransition(lParentContent)
-                    tvSubHeader.visibility = View.VISIBLE
+                    //tvSubHeader.visibility = View.VISIBLE
                 } catch (e: Exception) {
                     e.printStackTrace()
                 }
@@ -239,7 +239,7 @@ class LoginActivity : BaseActivity() {
             }, 750)
         } catch (e: Exception) {
             e.printStackTrace()
-            tvSubHeader.visibility = View.VISIBLE
+            //tvSubHeader.visibility = View.VISIBLE
         }
 
     }
